@@ -157,6 +157,7 @@ fraud_guard/
 ├── train_model.py           # ML training script (all 4 models)
 ├── model_credit_card.joblib # Serialized Random Forest model
 ├── package.json
+├── package_lock.json
 ├── requirements.txt
 └── .gitignore
 ```
@@ -174,8 +175,8 @@ fraud_guard/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/fraud-guard.git
-cd fraud-guard
+git clone https://github.com/vinayak251104/fraud_guard_api.git
+cd fraud_guard
 ```
 
 ### 2. Install Node dependencies
