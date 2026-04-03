@@ -6,19 +6,7 @@ A production-ready **Credit Card Fraud Detection API** that combines a Machine L
 
 ## 🏗️ Architecture
 
-```
-Client Request
-      ↓
-Express.js REST API (Node.js)
-      ↓  HTTP POST /predict
-FastAPI ML Service (Python)
-      ↓
-Random Forest Model (.joblib)
-      ↓
-MongoDB Atlas (logs prediction)
-      ↓
-Response to Client
-```
+![Architecture Diagram](diagram.png)
 
 ---
 
