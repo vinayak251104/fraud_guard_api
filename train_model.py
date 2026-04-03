@@ -184,4 +184,4 @@ print("Mean recall:  ", scores.mean())
 # ── Save Final Model ──────────────────────────────────────────────────────────
 
 joblib.dump(rf_model, MODEL_OUTPUT)
-print(f"\n✅ Model saved to {MODEL_OUTPUT}")
+print(f"\n Model saved to {MODEL_OUTPUT}")
