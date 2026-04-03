@@ -6,8 +6,11 @@ A production-ready **Credit Card Fraud Detection API** that combines a Machine L
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](diagram.png)
+### Flow Overview
+Client → Express API → FastAPI ML Service → Model → MongoDB
 
+### System Diagram
+<img src="diagram.png" width="650"/>
 ---
 
 ## ⚙️ Tech Stack
@@ -137,7 +140,7 @@ fraud_guard/
 │   └── userController.js    # Business logic, calls FastAPI, logs to DB
 ├── routers/
 │   └── userRouter.js        # Express route definitions
-├── model/
+├── models/
 │   └── userModel.js         # Mongoose schema for prediction logs
 ├── api.py                   # FastAPI app — loads model, runs inference
 ├── app.js                   # Express app setup, middleware
@@ -164,7 +167,7 @@ fraud_guard/
 
 ```bash
 git clone https://github.com/vinayak251104/fraud_guard_api.git
-cd fraud_guard
+cd fraud_guard_api
 ```
 
 ### 2. Install Node dependencies
