@@ -157,6 +157,7 @@ fraud_guard/
 ├── train_model.py           # ML training script (all 4 models)
 ├── model_credit_card.joblib # Serialized Random Forest model
 ├── package.json
+├── package_lock.json
 ├── requirements.txt
 └── .gitignore
 ```
@@ -174,8 +175,8 @@ fraud_guard/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/fraud-guard.git
-cd fraud-guard
+git clone https://github.com/vinayak251104/fraud_guard_api.git
+cd fraud_guard
 ```
 
 ### 2. Install Node dependencies
@@ -231,6 +232,15 @@ Environment variables set on Render for the Express service:
 - `DATABASE_PASSWORD` → Atlas password
 
 ---
+## 🌐 Live Demo
+
+| Service | URL |
+|---|---|
+| **Express REST API** | https://fraud-guard-express.onrender.com |
+| **FastAPI ML Service** | https://fraud-guard-api-zxhk.onrender.com |
+| **FastAPI Swagger UI** | https://fraud-guard-api-zxhk.onrender.com/docs |
+
+> ⚠️ Hosted on Render's free tier — the first request may take up to 50 seconds to wake up the services.
 
 ## 👤 Author
 
