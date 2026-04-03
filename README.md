@@ -231,6 +231,15 @@ Environment variables set on Render for the Express service:
 - `DATABASE_PASSWORD` → Atlas password
 
 ---
+## 🌐 Live Demo
+
+| Service | URL |
+|---|---|
+| **Express REST API** | https://fraud-guard-express.onrender.com |
+| **FastAPI ML Service** | https://fraud-guard-api-zxhk.onrender.com |
+| **FastAPI Swagger UI** | https://fraud-guard-api-zxhk.onrender.com/docs |
+
+> ⚠️ Hosted on Render's free tier — the first request may take up to 50 seconds to wake up the services.
 
 ## 👤 Author
 
