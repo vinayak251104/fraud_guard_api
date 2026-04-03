@@ -11,6 +11,8 @@ Client → Express API → FastAPI ML Service → Model → MongoDB
 
 ### System Diagram
 <img src="diagram.png" width="300"/>
+--- 
+
 ---
 
 ## ⚙️ Tech Stack
