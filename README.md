@@ -25,7 +25,7 @@ Client → Express API → FastAPI ML Service → Model → MongoDB
 | Model Serialization | Joblib                       |
 | Deployment          | Render (two services)        |
 
-### ---
+---
 
 ## 🤖 Machine Learning
 
