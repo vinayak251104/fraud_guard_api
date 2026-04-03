@@ -10,8 +10,10 @@ A production-ready **Credit Card Fraud Detection API** that combines a Machine L
 Client → Express API → FastAPI ML Service → Model → MongoDB
 
 ### System Diagram
-<img src="diagram.png" width="300"/>
---- 
+
+<p align="center">
+  <img src="diagram.png" width="300"/>
+</p>
 
 ---
 
